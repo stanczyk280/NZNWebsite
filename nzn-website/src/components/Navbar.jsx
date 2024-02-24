@@ -4,18 +4,31 @@ import { navLinks } from '../constants';
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
+  const [selectedNav, setSelectedNav] = useState(null);
+
+  const handleNavClick = (id) => {
+    setToggle(false);
+    setSelectedNav(id);
+  };
 
   return (
     <nav className='w-full flex py-4 justify-between items-center navbar'>
       <img src={logo} alt='logo' className='w-[140px] h-[140px]' />
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
-        {navLinks.map((nav, index) => (
+        {navLinks.map((nav) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[24px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'
-              } text-white`}
+            className={`
+            font-optima
+            font-normal 
+            cursor-pointer 
+            text-[24px] 
+            ${selectedNav === nav.id ? 'text-marigold' : 'text-white'
+              } ${navLinks.indexOf(nav) === navLinks.length - 1 ? 'mr-0' : 'mr-10'}`}
           >
-            <a href={`#${nav.id}`}>{nav.title}</a>
+            <a href={`#${nav.id}`} onClick={() => handleNavClick(nav.id)}>
+              {nav.title}
+            </a>
           </li>
         ))}
       </ul>
@@ -34,18 +47,20 @@ const Navbar = () => {
           my-20 min-w[140px] rounded-xl sidebar`}
         >
           <ul className='list-none flex flex-col justify-end items-center flex-1'>
-            {navLinks.map((nav, index) => (
+            {navLinks.map((nav) => (
               <li
                 key={nav.id}
                 className={`
-                font-poppins 
+                font-optima 
                 font-normal 
                 cursor-pointer 
                 text-[16px] 
-                ${index === navLinks.length - 1 ? 'mb-0' : 'mb-4'
-                  } text-white`}
+                ${selectedNav === nav.id ? 'text-marigold' : 'text-white'}
+                ${navLinks.indexOf(nav) === navLinks.length - 1 ? 'mb-0' : 'mb-4'}`}
               >
-                <a href={`#${nav.id}`}>{nav.title}</a>
+                <a href={`#${nav.id}`} onClick={() => handleNavClick(nav.id)}>
+                  {nav.title}
+                </a>
               </li>
             ))}
           </ul>
