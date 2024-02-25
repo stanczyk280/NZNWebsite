@@ -20,7 +20,7 @@ const Hero = () => {
         <div className='absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 gold__gradient' />
         <div className='mb-6 md:mb-0 p-4'>
           {/* Flavour text */}
-          <p className='font-poppins font-normal leading-[23px] ss:text-[22px] text-[14px] w-full text-white text-justify'>
+          <p className='font-poppins font-normal leading-[30px] ss:text-[22px] text-[14px] w-full text-white text-justify'>
             Zapewne masz w pamięci ciepłe, letnie poranki z dzieciństwa, kiedy umawiałeś się z kumplami na grę w piłkę, wspólne wspinanie się po drzewach i beztroskie włóczęgi po osiedlu. To były czasy, kiedy nie martwiłeś się niczym, a jedynym problemem było ustalenie, czyją piłką gracie.
             <br />
             <br />

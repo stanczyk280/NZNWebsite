@@ -25,6 +25,9 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import nzn_text from "./nzn_text.svg";
 import discord_icon from "./discord_icon.svg";
+import twitch_icon from "./twitch_icon.svg";
+import team from "./team.svg";
+import format_info from "./format_info.svg";
 
 export {
   airbnb,
@@ -53,5 +56,8 @@ export {
   people02,
   people03,
   nzn_text,
-  discord_icon
+  discord_icon,
+  twitch_icon,
+  team,
+  format_info
 };

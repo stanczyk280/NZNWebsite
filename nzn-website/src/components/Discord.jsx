@@ -1,10 +1,17 @@
 import React from 'react'
+import { layout } from '../style'
+import BattleMetricsScript from './BattleMetricsScript'
 
-function Discord() {
+
+
+const Discord = () => {
   return (
-    <div>
-      
-    </div>
+    <section id='discord' className={layout.section}>
+      <iframe src="https://discord.com/widget?id=712349171016794114&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+      <div className='p-5' />
+      <BattleMetricsScript />
+      <iframe src="https://cdn.battlemetrics.com/b/standardVertical/23897520.html?foreground=%23EEEEEE&linkColor=%231185ec&lines=%23333333&background=%23222222&chart=players%3A24H&chartColor=%23FF0700&maxPlayersHeight=300" frameBorder="0" style={{ border: 0 }} name="usqel"></iframe>
+    </section>
   )
 }
 

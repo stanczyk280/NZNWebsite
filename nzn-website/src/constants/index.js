@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star } from "../assets";
+import { twitch_icon, team, format_info, people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star } from "../assets";
 
 export const navLinks = [
     {
@@ -22,24 +22,24 @@ export const navLinks = [
 export const features = [
     {
         id: "feature-1",
-        icon: star,
-        title: "Rewards",
+        icon: format_info,
+        title: "Mały Format",
         content:
-            "The best credit cards offer some tantalizing combinations of promotions and prizes",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
     {
         id: "feature-2",
-        icon: shield,
-        title: "100% Secured",
+        icon: team,
+        title: "Topowe Teamy",
         content:
-            "We take proactive steps make sure your information and transactions are secure.",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
     {
         id: "feature-3",
-        icon: send,
-        title: "Balance Transfer",
+        icon: twitch_icon,
+        title: "Transmisja LIVE",
         content:
-            "A balance transfer credit card can save you a lot of money in interest charges.",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
 ];
 
