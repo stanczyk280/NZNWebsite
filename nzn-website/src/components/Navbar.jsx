@@ -9,6 +9,10 @@ const Navbar = () => {
   const handleNavClick = (id) => {
     setToggle(false);
     setSelectedNav(id);
+
+    if (id === 'stats') {
+      window.open('http://194.163.150.118:7010/#/', '_blank');
+    }
   };
 
   return (
@@ -33,6 +37,7 @@ const Navbar = () => {
         ))}
       </ul>
 
+      {/*Mobile list*/}
       <div className='sm:hidden flex flex-1 justify-end items-center'>
         <img
           src={toggle ? close : menu}

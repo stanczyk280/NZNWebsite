@@ -144,8 +144,13 @@
   filter: blur(123px);
 }
 
-.pink__gradient {
-  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+.silver__gradient {
+  background: linear-gradient(180deg, #ffffff 0%, #c8d9dd 100%);
+  filter: blur(700px);
+}
+
+.gold__gradient {
+  background: linear-gradient(90deg, #ffe5b4 0%, #ffa700 100%);
   filter: blur(900px);
 }
 

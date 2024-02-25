@@ -7,7 +7,7 @@ export const navLinks = [
     },
     {
         id: "stats",
-        title: "Statystyki Gier",
+        title: "Statystyki",
     },
     {
         id: "nzn6v6",
@@ -73,19 +73,24 @@ export const feedback = [
 export const stats = [
     {
         id: "stats-1",
-        title: "User Active",
-        value: "3800+",
+        title: "Członkowie Discorda",
+        value: "1400+",
     },
     {
         id: "stats-2",
-        title: "Trusted by Company",
-        value: "230+",
+        title: "Członkowie NZN",
+        value: "87",
     },
     {
         id: "stats-3",
-        title: "Transaction",
-        value: "$230M+",
+        title: "Ranga Serwera HLL w Polsce",
+        value: "#1",
     },
+    {
+        id: "stats-4",
+        title: "Ranga Serwera HLL na Świecie",
+        value: "#64",
+    }
 ];
 
 export const footerLinks = [
