@@ -6,7 +6,7 @@ import { Navbar, Button, Discord, Statystyki, NZN6v6, Footer, Hero } from './com
 const App = () => (
   <div className='bg-primary w-full overflow-hidden'>
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth} z-[2]`}>
+      <div className={`${styles.boxWidth} z-[3]`}>
         <Navbar />
       </div>
     </div>

@@ -25,21 +25,21 @@ export const features = [
         icon: format_info,
         title: "Mały Format",
         content:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "Specjalnie dostosowany format: tylko środkowa strefa i tylko środkowy punkt, zapewnia dynamiczność i szybkość rozgrywek. ",
     },
     {
         id: "feature-2",
         icon: team,
         title: "Topowe Teamy",
         content:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "W turnieju biorą udział zawodnicy z takich teamów jak: Greyhounds, BFTB, Phoenix, Polish Veterans i wiele innych.",
     },
     {
         id: "feature-3",
         icon: twitch_icon,
         title: "Transmisja LIVE",
         content:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "Specjalnie dla was każda rozgrywka transmitowana jest LIVE na Twitchu!",
     },
 ];
 
@@ -83,12 +83,12 @@ export const stats = [
     },
     {
         id: "stats-3",
-        title: "Ranga Serwera HLL w Polsce",
+        title: "Serwer HLL w Polsce",
         value: "#1",
     },
     {
         id: "stats-4",
-        title: "Ranga Serwera HLL na Świecie",
+        title: "Serwer HLL na Świecie",
         value: "#64",
     }
 ];

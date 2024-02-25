@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { close, logo, menu } from '../assets';
+import { close, logo, menu, youtube, tiktok, facebook } from '../assets';
 import { navLinks } from '../constants';
 
 const Navbar = () => {
@@ -15,9 +15,24 @@ const Navbar = () => {
     }
   };
 
+  const openYouTubeTab = () => {
+    window.open('https://www.youtube.com/@hlltvpolska1430', '_blank');
+  };
+
+  const openTikTokTab = () => {
+    window.open('https://www.tiktok.com/@nzn_serwer', '_blank');
+  };
+
+  const openFacebookTab = () => {
+    window.open('https://www.facebook.com/profile.php?id=100076869772469', '_blank');
+  };
+
   return (
-    <nav className='w-full flex py-4 justify-between items-center navbar'>
+    <nav className='w-full flex py-4 justify-between items-center navbar z-[3]'>
       <img src={logo} alt='logo' className='w-[140px] h-[140px]' />
+      <img src={youtube} className='h-[64px] w-[96px] m-5 cursor-pointer' onClick={openYouTubeTab} />
+      <img src={tiktok} className='h-[64px] w-[64px] m-5 cursor-pointer' onClick={openTikTokTab} />
+      <img src={facebook} className='h-[55px] w-[55px] m-5 cursor-pointer' onClick={openFacebookTab} />
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
         {navLinks.map((nav) => (
           <li
