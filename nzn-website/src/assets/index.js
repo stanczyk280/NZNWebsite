@@ -23,6 +23,8 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import nzn_text from "./nzn_text.svg";
+import discord_icon from "./discord_icon.svg";
 
 export {
   airbnb,
@@ -50,4 +52,6 @@ export {
   people01,
   people02,
   people03,
+  nzn_text,
+  discord_icon
 };

@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import Hero from "./Hero";
 import NZN6v6 from "./NZN6v6";
 import Statystyki from "./Statystyki";
+import JoinUs from "./JoinUs";
 
 export {
     Navbar,
@@ -13,5 +14,6 @@ export {
     Footer,
     Hero,
     NZN6v6,
-    Statystyki
+    Statystyki,
+    JoinUs
 };
