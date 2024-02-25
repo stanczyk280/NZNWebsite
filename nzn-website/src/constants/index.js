@@ -95,68 +95,43 @@ export const stats = [
 
 export const footerLinks = [
     {
-        title: "Useful Links",
+        title: "Pomocne Linki",
         links: [
             {
-                name: "Content",
-                link: "https://www.hoobank.com/content/",
+                name: "Strona European Community League",
+                link: "https://hll-ecl.eu",
             },
             {
-                name: "How it Works",
-                link: "https://www.hoobank.com/how-it-works/",
+                name: "Biblia Czołgistów",
+                link: "https://www.theline.gg/tankbible",
             },
             {
-                name: "Create",
-                link: "https://www.hoobank.com/create/",
-            },
-            {
-                name: "Explore",
-                link: "https://www.hoobank.com/explore/",
-            },
-            {
-                name: "Terms & Services",
-                link: "https://www.hoobank.com/terms-and-services/",
-            },
+                name: "Strona Hell Let Loose",
+                link: "https://www.hellletloose.com",
+            }
         ],
     },
     {
-        title: "Community",
+        title: "Społeczności",
         links: [
             {
-                name: "Help Center",
-                link: "https://www.hoobank.com/help-center/",
+                name: "Youtube",
+                link: "https://www.youtube.com/@hlltvpolska1430",
             },
             {
-                name: "Partners",
-                link: "https://www.hoobank.com/partners/",
+                name: "TikTok",
+                link: "https://www.tiktok.com/@nzn_serwer",
             },
             {
-                name: "Suggestions",
-                link: "https://www.hoobank.com/suggestions/",
+                name: "Facebook",
+                link: "https://www.facebook.com/profile.php?id=100076869772469",
             },
             {
-                name: "Blog",
-                link: "https://www.hoobank.com/blog/",
-            },
-            {
-                name: "Newsletters",
-                link: "https://www.hoobank.com/newsletters/",
-            },
+                name: "Twitch NZN | Dustwrld",
+                link: "https://www.twitch.tv/dust_wrld",
+            }
         ],
-    },
-    {
-        title: "Partner",
-        links: [
-            {
-                name: "Our Partner",
-                link: "https://www.hoobank.com/our-partner/",
-            },
-            {
-                name: "Become a Partner",
-                link: "https://www.hoobank.com/become-a-partner/",
-            },
-        ],
-    },
+    }
 ];
 
 export const socialMedia = [

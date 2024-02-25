@@ -28,17 +28,17 @@ const Navbar = () => {
   };
 
   return (
-    <nav className='w-full flex py-4 justify-between items-center navbar z-[3]'>
-      <img src={logo} alt='logo' className='w-[140px] h-[140px]' />
-      <img src={youtube} className='h-[64px] w-[96px] m-5 cursor-pointer' onClick={openYouTubeTab} />
+    <nav className='w-full flex py-4 justify-between items-center navbar'>
+      <img src={logo} alt='logo' className='w-[90px] h-[90px]' />
+      {/* <img src={youtube} className='h-[64px] w-[96px] m-5 cursor-pointer' onClick={openYouTubeTab} />
       <img src={tiktok} className='h-[64px] w-[64px] m-5 cursor-pointer' onClick={openTikTokTab} />
-      <img src={facebook} className='h-[55px] w-[55px] m-5 cursor-pointer' onClick={openFacebookTab} />
+      <img src={facebook} className='h-[55px] w-[55px] m-5 cursor-pointer' onClick={openFacebookTab} /> */}
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
         {navLinks.map((nav) => (
           <li
             key={nav.id}
             className={`
-            font-optima
+            font-poppins
             font-normal 
             cursor-pointer 
             text-[24px] 
